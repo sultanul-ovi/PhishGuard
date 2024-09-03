@@ -1,0 +1,22 @@
+ML Model               ,Configuration           ,Accuracy ,F1 Score ,Recall  ,Precision ,ROC_AUC
+Gradient Boosting      ,Normalized Data         ,97.286%  ,97.634%  ,98.645% ,96.643%   ,99.660%
+Gradient Boosting      ,Original Data           ,97.105%  ,97.480%  ,98.645% ,96.342%   ,99.636%
+Gradient Boosting      ,After SMOTE             ,97.060%  ,97.434%  ,98.327% ,96.557%   ,99.647%
+Gradient Boosting      ,SelectKBest             ,97.060%  ,97.432%  ,98.247% ,96.630%   ,99.609%
+Random Forest          ,After SMOTE             ,97.015%  ,97.391%  ,98.167% ,96.627%   ,99.661%
+Random Forest          ,SMOTE and Normalization ,97.015%  ,97.391%  ,98.167% ,96.627%   ,99.661%
+Random Forest          ,SelectKBest             ,97.015%  ,97.391%  ,98.167% ,96.627%   ,99.661%
+Random Forest          ,RFECV                   ,96.834%  ,97.233%  ,98.008% ,96.471%   ,99.647%
+Gradient Boosting      ,SMOTE and Normalization ,96.744%  ,97.154%  ,97.928% ,96.392%   ,99.655%
+Support Vector Machine ,Original Data           ,96.608%  ,97.037%  ,97.849% ,96.238%   ,98.889%
+Random Forest          ,Original Data           ,96.563%  ,96.989%  ,97.530% ,96.454%   ,99.112%
+Random Forest          ,Normalized Data         ,96.563%  ,96.989%  ,97.530% ,96.454%   ,99.112%
+Support Vector Machine ,SelectKBest             ,96.517%  ,96.953%  ,97.610% ,96.305%   ,99.180%
+Support Vector Machine ,After SMOTE             ,96.472%  ,96.919%  ,97.769% ,96.085%   ,99.037%
+Support Vector Machine ,SMOTE and Normalization ,96.472%  ,96.917%  ,97.689% ,96.157%   ,99.173%
+Support Vector Machine ,Normalized Data         ,96.427%  ,96.879%  ,97.689% ,96.081%   ,99.174%
+Gradient Boosting      ,RFECV                   ,96.382%  ,96.853%  ,98.088% ,95.649%   ,99.542%
+Support Vector Machine ,RFECV                   ,96.382%  ,96.830%  ,97.371% ,96.296%   ,99.207%
+Support Vector Machine ,PCA                     ,96.156%  ,96.628%  ,97.052% ,96.209%   ,99.218%
+Random Forest          ,PCA                     ,95.975%  ,96.475%  ,97.052% ,95.906%   ,99.241%
+Gradient Boosting      ,PCA                     ,95.794%  ,96.334%  ,97.371% ,95.320%   ,99.247%
