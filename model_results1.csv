@@ -27,3 +27,10 @@ CatBoost               ,SMOTE and Normalization ,97.241%  ,97.594%  ,98.566% ,96
 CatBoost               ,SelectKBest             ,97.241%  ,97.594%  ,98.566% ,96.641%   ,99.657%
 CatBoost               ,RFECV                   ,97.196%  ,97.551%  ,98.406% ,96.711%   ,99.620%
 CatBoost               ,PCA                     ,96.246%  ,96.721%  ,97.530% ,95.925%   ,99.415%
+AdaBoost               ,Original Data           ,93.397%  ,94.220%  ,94.821% ,93.627%   ,98.582%
+AdaBoost               ,Normalized Data         ,93.397%  ,94.220%  ,94.821% ,93.627%   ,98.582%
+AdaBoost               ,After SMOTE             ,93.216%  ,94.033%  ,94.183% ,93.884%   ,98.568%
+AdaBoost               ,SMOTE and Normalization ,93.216%  ,94.033%  ,94.183% ,93.884%   ,98.568%
+AdaBoost               ,SelectKBest             ,93.216%  ,94.033%  ,94.183% ,93.884%   ,98.568%
+AdaBoost               ,RFECV                   ,93.487%  ,94.290%  ,94.741% ,93.844%   ,98.537%
+AdaBoost               ,PCA                     ,93.804%  ,94.544%  ,94.582% ,94.506%   ,98.364%
