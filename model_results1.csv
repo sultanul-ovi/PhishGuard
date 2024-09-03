@@ -20,3 +20,10 @@ Gradient Boosting      ,SMOTE and Normalization ,96.744%  ,97.154%  ,97.928% ,96
 Gradient Boosting      ,SelectKBest             ,97.060%  ,97.432%  ,98.247% ,96.630%   ,99.609%
 Gradient Boosting      ,RFECV                   ,96.382%  ,96.853%  ,98.088% ,95.649%   ,99.542%
 Gradient Boosting      ,PCA                     ,95.794%  ,96.334%  ,97.371% ,95.320%   ,99.247%
+CatBoost               ,Original Data           ,97.151%  ,97.515%  ,98.486% ,96.562%   ,99.624%
+CatBoost               ,Normalized Data         ,97.151%  ,97.515%  ,98.486% ,96.562%   ,99.624%
+CatBoost               ,After SMOTE             ,97.241%  ,97.594%  ,98.566% ,96.641%   ,99.657%
+CatBoost               ,SMOTE and Normalization ,97.241%  ,97.594%  ,98.566% ,96.641%   ,99.657%
+CatBoost               ,SelectKBest             ,97.241%  ,97.594%  ,98.566% ,96.641%   ,99.657%
+CatBoost               ,RFECV                   ,97.196%  ,97.551%  ,98.406% ,96.711%   ,99.620%
+CatBoost               ,PCA                     ,96.246%  ,96.721%  ,97.530% ,95.925%   ,99.415%

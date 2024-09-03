@@ -1,5 +1,11 @@
 ML Model               ,Configuration           ,Accuracy ,F1 Score ,Recall  ,Precision ,ROC_AUC
 Gradient Boosting      ,Normalized Data         ,97.286%  ,97.634%  ,98.645% ,96.643%   ,99.660%
+CatBoost               ,After SMOTE             ,97.241%  ,97.594%  ,98.566% ,96.641%   ,99.657%
+CatBoost               ,SMOTE and Normalization ,97.241%  ,97.594%  ,98.566% ,96.641%   ,99.657%
+CatBoost               ,SelectKBest             ,97.241%  ,97.594%  ,98.566% ,96.641%   ,99.657%
+CatBoost               ,RFECV                   ,97.196%  ,97.551%  ,98.406% ,96.711%   ,99.620%
+CatBoost               ,Original Data           ,97.151%  ,97.515%  ,98.486% ,96.562%   ,99.624%
+CatBoost               ,Normalized Data         ,97.151%  ,97.515%  ,98.486% ,96.562%   ,99.624%
 Gradient Boosting      ,Original Data           ,97.105%  ,97.480%  ,98.645% ,96.342%   ,99.636%
 Gradient Boosting      ,After SMOTE             ,97.060%  ,97.434%  ,98.327% ,96.557%   ,99.647%
 Gradient Boosting      ,SelectKBest             ,97.060%  ,97.432%  ,98.247% ,96.630%   ,99.609%
@@ -17,6 +23,7 @@ Support Vector Machine ,SMOTE and Normalization ,96.472%  ,96.917%  ,97.689% ,96
 Support Vector Machine ,Normalized Data         ,96.427%  ,96.879%  ,97.689% ,96.081%   ,99.174%
 Gradient Boosting      ,RFECV                   ,96.382%  ,96.853%  ,98.088% ,95.649%   ,99.542%
 Support Vector Machine ,RFECV                   ,96.382%  ,96.830%  ,97.371% ,96.296%   ,99.207%
+CatBoost               ,PCA                     ,96.246%  ,96.721%  ,97.530% ,95.925%   ,99.415%
 Support Vector Machine ,PCA                     ,96.156%  ,96.628%  ,97.052% ,96.209%   ,99.218%
 Random Forest          ,PCA                     ,95.975%  ,96.475%  ,97.052% ,95.906%   ,99.241%
 Gradient Boosting      ,PCA                     ,95.794%  ,96.334%  ,97.371% ,95.320%   ,99.247%
