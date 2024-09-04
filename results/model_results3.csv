@@ -1,0 +1,31 @@
+ML Model               ,Configuration   ,Accuracy ,F1 Score ,Recall   ,Precision ,ROC_AUC
+Support Vector Machine ,Original Data   ,67.367%  ,75.621%  ,100.000% ,60.799%   ,79.923%
+Support Vector Machine ,Normalized Data ,96.151%  ,96.220%  ,96.802%  ,95.645%   ,99.147%
+Support Vector Machine ,SelectKBest     ,96.107%  ,96.179%  ,96.802%  ,95.563%   ,99.144%
+Support Vector Machine ,RFECV           ,96.194%  ,96.258%  ,96.716%  ,95.805%   ,99.220%
+Support Vector Machine ,PCA             ,94.969%  ,95.054%  ,95.506%  ,94.606%   ,98.885%
+Random Forest          ,Original Data   ,97.113%  ,97.165%  ,97.753%  ,96.584%   ,99.523%
+Random Forest          ,Normalized Data ,96.763%  ,96.824%  ,97.493%  ,96.164%   ,99.508%
+Random Forest          ,SelectKBest     ,97.113%  ,97.165%  ,97.753%  ,96.584%   ,99.501%
+Random Forest          ,RFECV           ,96.894%  ,96.944%  ,97.321%  ,96.569%   ,99.487%
+Random Forest          ,PCA             ,94.969%  ,95.075%  ,95.938%  ,94.227%   ,98.748%
+Gradient Boosting      ,Original Data   ,97.113%  ,97.153%  ,97.321%  ,96.985%   ,99.587%
+Gradient Boosting      ,Normalized Data ,96.982%  ,97.030%  ,97.407%  ,96.655%   ,99.576%
+Gradient Boosting      ,SelectKBest     ,96.938%  ,96.972%  ,96.888%  ,97.056%   ,99.599%
+Gradient Boosting      ,RFECV           ,97.288%  ,97.328%  ,97.580%  ,97.076%   ,99.589%
+Gradient Boosting      ,PCA             ,95.494%  ,95.570%  ,96.024%  ,95.120%   ,98.734%
+AdaBoost               ,Original Data   ,95.757%  ,95.806%  ,95.765%  ,95.848%   ,99.040%
+AdaBoost               ,Normalized Data ,95.757%  ,95.806%  ,95.765%  ,95.848%   ,99.040%
+AdaBoost               ,SelectKBest     ,95.932%  ,95.986%  ,96.111%  ,95.862%   ,99.038%
+AdaBoost               ,RFECV           ,95.844%  ,95.907%  ,96.197%  ,95.619%   ,98.999%
+AdaBoost               ,PCA             ,93.045%  ,93.084%  ,92.481%  ,93.695%   ,97.943%
+CatBoost               ,Original Data   ,97.157%  ,97.204%  ,97.666%  ,96.747%   ,99.639%
+CatBoost               ,Normalized Data ,97.157%  ,97.204%  ,97.666%  ,96.747%   ,99.639%
+CatBoost               ,SelectKBest     ,97.332%  ,97.376%  ,97.839%  ,96.918%   ,99.612%
+CatBoost               ,RFECV           ,97.200%  ,97.244%  ,97.580%  ,96.910%   ,99.633%
+CatBoost               ,PCA             ,95.276%  ,95.357%  ,95.851%  ,94.867%   ,99.002%
+XGBoost                ,Original Data   ,97.025%  ,97.049%  ,96.629%  ,97.472%   ,99.565%
+XGBoost                ,Normalized Data ,97.025%  ,97.049%  ,96.629%  ,97.472%   ,99.565%
+XGBoost                ,SelectKBest     ,96.938%  ,96.978%  ,97.061%  ,96.894%   ,99.583%
+XGBoost                ,RFECV           ,97.113%  ,97.153%  ,97.321%  ,96.985%   ,99.579%
+XGBoost                ,PCA             ,95.188%  ,95.267%  ,95.678%  ,94.859%   ,98.733%
