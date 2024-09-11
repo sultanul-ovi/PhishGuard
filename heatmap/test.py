@@ -15,7 +15,7 @@ data['ML Model'] = data['ML Model'].str.strip()
 
 # Remove percentage signs, if any, and multiply the metrics by 100, round to 3 decimal points
 for col in ['Accuracy', 'F1 Score', 'Recall', 'Precision']:
-    data[col] = (data[col] * 100).round(2)
+    data[col] = (data[col] * 100).round(3)
 
 # Set the Model as the index for easier plotting
 data.set_index('ML Model', inplace=True)
