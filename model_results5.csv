@@ -1,0 +1,8 @@
+ML Model,Configuration,Accuracy,F1 Score,Recall,Precision,ROC_AUC
+AdaBoost,Normalized Data,87.781%,87.899%,88.640%,87.170%,95.270%
+XGBoost,Normalized Data,94.969%,94.975%,94.950%,94.999%,98.900%
+CatBoost,Normalized Data,94.062%,94.056%,93.836%,94.278%,98.650%
+Gradient Boosting,Normalized Data,94.792%,94.801%,94.835%,94.766%,98.819%
+Random Forest,Normalized Data,95.131%,95.108%,94.534%,95.689%,99.020%
+SVM,Normalized Data,95.131%,95.108%,94.534%,95.689%,99.020%
+SVM,Normalized Data,81.650%,82.035%,83.684%,80.451%,90.616%
