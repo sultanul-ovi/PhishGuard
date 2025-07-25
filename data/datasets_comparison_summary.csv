@@ -1,0 +1,6 @@
+,shape,missing_percent,binary_features,categorical_features,numerical_features,target_balance,high_correlations,total_outliers
+dataset1,"(11055, 32)",0.0,31,0,0,0.7955172973850901,3,0
+dataset2,"(88647, 112)",0.0,32,34,46,0.5283965517241379,494,99051
+dataset3,"(11430, 89)",100.0,38,13,37,,4,22755
+dataset4,"(235795, 56)",99.74596577535571,20,2,30,0.7485724879495737,6,280737
+dataset6,"(10000, 50)",0.0,31,2,16,1.0,5,7052
